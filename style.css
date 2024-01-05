@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+*{
+    font-family: 'League Spartan';
+}
+.topic {
+    color: hsl(300, 43%, 22%);
+    font-size: 50px;
+    font-weight: 700;
+    width: 400px;
+    margin-top: 110px;
+    margin-left: 150px;
+    display: block;
+}
+
+.info {
+    text-align: left;
+    color: hsl(303, 10%, 53%);
+    margin-left: 150px;
+    display: block;
+    margin-top: -22px;
+    width: 500px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.rated {
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 8px;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    width: 420px;
+    height: 50px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+
+.rated-reviews {
+    margin-left: 52rem;
+    margin-top: -14rem;
+}
+
+.rated-guru {
+    margin-left: 55rem;
+}
+
+.rated-besttech {
+    margin-left: 57.5rem;
+}
+
+.Stars {
+    size: 10px;
+    margin-left: 6px;
+}
+
+.rated-p {
+    margin-left: 25px;
+}
+
+.colton-comment {
+    background-color: hsl(300, 43%, 22%);
+    width: 385px;
+    margin-left: 150px;
+    margin-top: 85px;
+    border-radius: 10px;
+    height: 230px;
+}
+
+.irene-comment {
+    background-color: hsl(300, 43%, 22%);
+    width: 385px;
+    margin-left: 35.5rem;
+    margin-top: -13rem;
+    border-radius: 10px;
+    height: 230px;
+}
+
+.anne-comment {
+    background-color: hsl(300, 43%, 22%);
+    width: 385px;
+    margin-left: 61.5rem;
+    margin-top: -13rem;
+    border-radius: 10px;
+    height: 230px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 45px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.customer-name {
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: -40px;
+    margin-left: 90px;
+}
+
+.Verified {
+    color: hsl(333, 80%, 67%);
+    margin-top: -12px;
+    margin-left: 90px;
+    font-size: 16px;
+}
+
+.customer-review {
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-size: 19px;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 330px;
+    line-height: 22px;
+}
+
+@media (max-width: 390px) {
+    .container {
+        width: 375px;
+    }
+
+    .topic {
+        font-size: 40px;
+        width: 300px;
+        margin-top: 90px;
+        margin-left: 30px;
+        text-align: center;
+    }
+    
+    .info {
+        text-align: center;
+        margin-left: 10px;
+        margin-top: -14px;
+        width: 340px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    
+    .rated {
+        padding-left: 6rem;
+        width: 250px;
+        height: 100px;
+        font-size: 22px;
+    }
+    
+    .rated-reviews {
+        margin-left: 8px;
+        margin-top: 3rem;
+    }
+    
+    .rated-guru {
+        margin-left: 8px;
+        margin-top: 1.5rem;
+    }
+    
+    .rated-besttech {
+        margin-left: 8px;
+        margin-top: 1.5rem;
+    }
+    
+    .Stars {
+        margin-left: 6px;
+        margin-top: -55px;
+    }
+    
+    .review {
+        margin-left: -150px;
+        margin-top: 50px;
+    }
+
+    .guru {
+        margin-left: -175px;
+        margin-top: 50px;
+    }
+
+    .besttech {
+        margin-left: -160px;
+        margin-top: 50px;
+    }
+    
+    .colton-comment {
+        width: 340px;
+        margin-left: 10px;
+        margin-top: 55px;
+        height: 270px;
+    }
+    
+    .irene-comment {
+        width: 340px;
+        margin-left: 10px;
+        margin-top: 20px;
+        height: 270px;
+    }
+    
+    .anne-comment {
+        width: 340px;
+        margin-left: 10px;
+        margin-top: 20px;
+        height: 270px;
+        margin-bottom: 100px;
+    }
+    
+    .profile-pic {
+        width: 55px;
+        margin-left: 35px;
+    }
+    
+    .customer-name {
+        font-size: 20px;
+        margin-top: -55px;
+        margin-left: 110px;
+    }
+    
+    .Verified {
+        margin-top: -18px;
+        margin-left: 110px;
+        font-size: 20px;
+    }
+    
+    .customer-review {
+        color: hsl(0, 0%, 100%);
+        font-weight: 400;
+        font-size: 19px;
+        margin-top: 30px;
+        margin-left: 30px;
+        width: 290px;
+        line-height: 22px;
+    }
+    
+}
